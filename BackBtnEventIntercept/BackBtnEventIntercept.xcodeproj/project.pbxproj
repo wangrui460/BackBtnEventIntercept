@@ -14,6 +14,7 @@
 		1A45BBC71EAB2A76007ECB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A45BBC61EAB2A76007ECB5D /* Assets.xcassets */; };
 		1A45BBCA1EAB2A76007ECB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A45BBC81EAB2A76007ECB5D /* LaunchScreen.storyboard */; };
 		1A45BBD51EAB2A76007ECB5D /* BackBtnEventInterceptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A45BBD41EAB2A76007ECB5D /* BackBtnEventInterceptTests.m */; };
+		1A45BBE21EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A45BBE11EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1A45BBD01EAB2A76007ECB5D /* BackBtnEventInterceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackBtnEventInterceptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A45BBD41EAB2A76007ECB5D /* BackBtnEventInterceptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackBtnEventInterceptTests.m; sourceTree = "<group>"; };
 		1A45BBD61EAB2A76007ECB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A45BBE01EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBtnEventIntercept.h"; sourceTree = "<group>"; };
+		1A45BBE11EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBtnEventIntercept.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			children = (
 				1A45BBBD1EAB2A76007ECB5D /* AppDelegate.h */,
 				1A45BBBE1EAB2A76007ECB5D /* AppDelegate.m */,
+				1A45BBDF1EAB2C19007ECB5D /* UIViewController+BackBtnEventIntercept */,
 				1A45BBC01EAB2A76007ECB5D /* ViewController.h */,
 				1A45BBC11EAB2A76007ECB5D /* ViewController.m */,
 				1A45BBC31EAB2A76007ECB5D /* Main.storyboard */,
@@ -109,6 +113,15 @@
 				1A45BBD61EAB2A76007ECB5D /* Info.plist */,
 			);
 			path = BackBtnEventInterceptTests;
+			sourceTree = "<group>";
+		};
+		1A45BBDF1EAB2C19007ECB5D /* UIViewController+BackBtnEventIntercept */ = {
+			isa = PBXGroup;
+			children = (
+				1A45BBE01EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.h */,
+				1A45BBE11EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.m */,
+			);
+			path = "UIViewController+BackBtnEventIntercept";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A45BBE21EAB2C39007ECB5D /* UIViewController+BackBtnEventIntercept.m in Sources */,
 				1A45BBC21EAB2A76007ECB5D /* ViewController.m in Sources */,
 				1A45BBBF1EAB2A76007ECB5D /* AppDelegate.m in Sources */,
 				1A45BBBC1EAB2A76007ECB5D /* main.m in Sources */,
@@ -418,6 +432,7 @@
 				1A45BBDB1EAB2A76007ECB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A45BBDC1EAB2A76007ECB5D /* Build configuration list for PBXNativeTarget "BackBtnEventInterceptTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				1A45BBDE1EAB2A76007ECB5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
